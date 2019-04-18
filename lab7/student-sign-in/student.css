@@ -1,0 +1,38 @@
+
+body{
+    background: mintcream;
+    color: indigo;
+    font-family: "Times New Roman", sans-serif;
+}
+h4:hover{
+    font-size: 200%;
+    color: lawngreen;
+    text-shadow: 2px 2px 3px gold}
+
+
+h4{
+    text-align: center;
+}
+/* https://vuejs.org/v2/guide/transitions.html */
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+#student-table {
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.present-true {
+    color: gray;
+    font-style: italic;
+}
+
+.present-false {
+    font-weight: bold;
+}
